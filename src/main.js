@@ -2,13 +2,13 @@ import Vue from 'vue'
 import App from './App.vue'
 import router from './router'
 import store from './store'
-import axios from '@/common/axios'
-import VueAxios from 'vue-axios'
-import './plugins/element.js'
+import '@/plugins/axios'
+import '@/plugins/element'
+import '@/plugins/validator'
+import '@/plugins/map'
+import '@/common/lib'
 
 Vue.config.productionTip = false
-
-Vue.use(VueAxios, axios)
 
 Vue.mixin({
   data() {

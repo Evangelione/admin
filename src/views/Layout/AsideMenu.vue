@@ -8,8 +8,18 @@
           <span>商户管理</span>
         </template>
         <el-menu-item-group>
-          <template slot="title">分组一</template>
+          <template slot="title">基础</template>
           <el-menu-item index="/merchant/list">商户列表</el-menu-item>
+        </el-menu-item-group>
+      </el-submenu>
+      <el-submenu index="2">
+        <template slot="title">
+          <i class="el-icon-location"></i>
+          <span>人工智能</span>
+        </template>
+        <el-menu-item-group>
+          <template slot="title">基础</template>
+          <el-menu-item index="/merchant/list">机器人绑定</el-menu-item>
         </el-menu-item-group>
       </el-submenu>
     </el-menu>

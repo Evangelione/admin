@@ -43,4 +43,12 @@ body {
 .el-cascader-menu {
   max-height: 300px;
 }
+
+.success {
+  color: #67c23a;
+}
+
+.danger {
+  color: #f56c6c;
+}
 </style>
